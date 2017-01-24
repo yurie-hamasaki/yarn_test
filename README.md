@@ -5,12 +5,11 @@
 `yarn` を使用します。
 ```
 $ npm install --g yarn
-
 ```
 
 ## 構築
 
-ターミナルで `$ yarn i` を実行します。  
+ターミナルで `$ yarn install` を実行します。  
 `node_modules` ディレクトリが作成され、必要モジュールが格納されます。
 
 ## 実行
