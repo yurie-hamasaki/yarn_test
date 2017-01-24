@@ -1,0 +1,22 @@
+extends ./_common/_layout
+
+block append vars
+  - var rootPath = '../';
+  - var pagePath = '';
+  - var title = 'yarn test!!';
+  - var keywords = '';
+  - var description = '';
+
+block head
+
+block content
+
+  include ./_common/_header
+
+  main.contents
+    p#content yarn!
+    .bg
+    .image
+      img(src='images/dummy.png', alt='dummy')
+
+  include ./_common/_footer
